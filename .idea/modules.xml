@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/curso-hr-system.iml" filepath="$PROJECT_DIR$/.idea/curso-hr-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payroll-api/payroll-api.iml" filepath="$PROJECT_DIR$/payroll-api/payroll-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/user-api/user-api.iml" filepath="$PROJECT_DIR$/user-api/user-api.iml" />
     </modules>
   </component>

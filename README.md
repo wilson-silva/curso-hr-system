@@ -41,3 +41,4 @@ uso de OpenFeign, centralizar requisições usando um API Gateway e muito mais c
   - API de Usuário - Iniciando API
   - API de Usuario - Implementando os Recursos para a API
   - API de Usuario - Tratamento de Exceção de forma personalizada
+  - API de Pagamentos - Iniciando Projeto
