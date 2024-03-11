@@ -44,3 +44,4 @@ uso de OpenFeign, centralizar requisições usando um API Gateway e muito mais c
   - API de Pagamentos - Iniciando Projeto
   - API de Pagamentos - Iniciando lógica da API
   - API de Pagamentos - Implementando OpenFeign na comunicação entre APIs
+  - API de Pagamentos - Tratamento de exceção e Camada de Serviços
