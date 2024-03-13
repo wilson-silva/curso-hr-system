@@ -48,3 +48,6 @@ uso de OpenFeign, centralizar requisições usando um API Gateway e muito mais c
 
 - Seção 3: Naming Server com Netflix Eureka
   - Eureka Server
+
+- Seção 4: Load Balancing
+  - Load Balancing
