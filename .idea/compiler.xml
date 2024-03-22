@@ -14,10 +14,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="api-gateway" target="11" />
-      <module name="eureka-server" target="11" />
-      <module name="payroll-api" target="11" />
-      <module name="user-api" target="11" />
+      <module name="api-gateway" target="17" />
+      <module name="eureka-server" target="17" />
+      <module name="payroll-api" target="17" />
+      <module name="user-api" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
