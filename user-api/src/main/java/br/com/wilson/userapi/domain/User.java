@@ -1,11 +1,12 @@
 package br.com.wilson.userapi.domain;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
 import lombok.*;
 
-import static jakarta.persistence.GenerationType.IDENTITY;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+import static javax.persistence.GenerationType.IDENTITY;
 import static lombok.EqualsAndHashCode.Include;
 
 @Getter

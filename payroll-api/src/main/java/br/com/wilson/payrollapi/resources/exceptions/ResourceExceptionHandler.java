@@ -1,12 +1,13 @@
 package br.com.wilson.payrollapi.resources.exceptions;
 
 import br.com.wilson.payrollapi.services.exceptions.ObjectNotFoundException;
-import jakarta.servlet.http.HttpServletRequest;
+
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
+import javax.servlet.http.HttpServletRequest;
 import java.time.LocalDateTime;
 
 @ControllerAdvice

@@ -51,3 +51,7 @@ uso de OpenFeign, centralizar requisições usando um API Gateway e muito mais c
 
 - Seção 4: Load Balancing
   - Load Balancing
+
+- Seção 5: Spring Cloud API Gateway
+  - API Gateway
+
