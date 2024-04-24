@@ -55,3 +55,7 @@ uso de OpenFeign, centralizar requisições usando um API Gateway e muito mais c
 - Seção 5: Spring Cloud API Gateway
   - API Gateway
 
+- Seção 6: Docker
+  - Criando primeira imagem docker
+  - Registrando imagens no Docker Hub
+
