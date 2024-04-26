@@ -7,3 +7,4 @@ eureka: #usado para ele nao auto se registrar
   client:
     register-with-eureka: false
     fetch-registry: false
+

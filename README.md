@@ -59,3 +59,6 @@ uso de OpenFeign, centralizar requisições usando um API Gateway e muito mais c
   - Criando primeira imagem docker
   - Registrando imagens no Docker Hub
 
+- Seção 7: Docker Compose
+  - Subindo o sistema com docker compose
+

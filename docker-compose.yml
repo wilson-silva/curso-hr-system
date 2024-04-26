@@ -1,0 +1,56 @@
+version: '3.4'
+
+services:
+  eureka-server:
+    image: willgidocker/eureka-server:1.0.0
+    ports:
+      - "8761:8761"
+    expose:
+      - "8761"
+    networks:
+      - hr-system
+
+  api-gateway:
+    image: willgidocker/api-gateway:1.0.0
+    ports:
+      - "8765:8765"
+    expose:
+      - "8765"
+    depends_on:
+      - eureka-server
+    environment:
+      - PORT=8765
+      - eureka.client.service-url.defaultZone=http://eureka-server:8761/eureka
+    networks:
+      - hr-system
+
+  user-api:
+    image: willgidocker/user-api:1.0.0
+    ports:
+      - "8000:8000"
+    depends_on:
+      - eureka-server
+      - api-gateway
+    environment:
+      - PORT=8001
+      - eureka.client.service-url.defaultZone=http://eureka-server:8761/eureka
+    networks:
+      - hr-system
+
+  payroll-api:
+    image: willgidocker/payroll-api:1.0.0
+    ports:
+      - "8100:8100"
+    depends_on:
+      - eureka-server
+      - api-gateway
+      - user-api
+    environment:
+      - PORT=8100
+      - eureka.client.service-url.defaultZone=http://eureka-server:8761/eureka
+    networks:
+      - hr-system
+
+networks:
+  hr-system:
+    driver: bridge
